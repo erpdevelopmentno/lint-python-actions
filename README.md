@@ -1,6 +1,6 @@
 # Create workflow with lint-python-actions
-create the folder .github/workflows and add the .yaml file
-consistency code errors can be fixed in VS Code with the following commands:
+- create the folder .github/workflows and add the .yaml file
+- consistency code errors can be fixed in VS Code using the following commands:
 
 ## Install Black
 
