@@ -28,4 +28,3 @@ jobs:
       - name: Run Ruff
         run: |
           ruff check .  # Check code with ruff
-          ruff fix .    # Automatically fix issues
