@@ -27,11 +27,11 @@ jobs:
 
       - name: Run Ruff Lint
         run: |
-          ruff .
+          ruff check .
 
       - name: Run Ruff Fix
         run: |
-          ruff . --fix
+          ruff check . --fix
 
       - name: Commit and Push Fixes
         if: success() && github.event_name == 'push'
